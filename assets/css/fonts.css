@@ -1,0 +1,43 @@
+@font-face {
+    font-family: mont-black;
+    src: url('../fonts/mont/Mont-Black.woff2');
+}
+
+@font-face {
+    font-family: mont-bold;
+    src: url('../fonts/mont/Mont-Bold.woff2');
+}
+
+@font-face {
+    font-family: mont-semi-bold;
+    src: url('../fonts/mont/Mont-SemiBold.woff2');
+}
+
+@font-face {
+    font-family: mont-regular;
+    src: url('../fonts/mont/Mont-Regular.woff2');
+}
+
+@font-face {
+    font-family: mont-extra-light;
+    src: url('../fonts/mont/Mont-ExtraLight.woff2');
+}
+
+@font-face {
+    font-family: mont-light;
+    src: url('../fonts/mont/Mont-Light.woff2');
+}
+
+@font-face {
+    font-family: mont-thin;
+    src: url('../fonts/mont/Mont-Thin.woff2');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0d3603;
+    margin: 0;
+}
+
+strong {
+    font-family: "mont-semi-bold";
+}

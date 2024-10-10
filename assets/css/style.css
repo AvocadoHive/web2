@@ -1,0 +1,92 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "mont-regular";
+}
+
+.d-header-part {
+    background: url('/assets/images/green_backgroundv2.jpg') no-repeat center top;
+    background-size: cover;
+}
+
+.d-header-container {
+    max-width: 1370px;
+    margin: 0 auto;
+}
+
+.d-ah-logo {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+
+.d-ah-logo img {
+    max-width: 100%;
+}
+
+.d-ah-menu {
+    font-family: "Work Sans", sans-serif;
+    display: inline-block;
+    width: 79%;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.d-ah-menu .d-main-menu,
+.d-ah-menu .d-main-options {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.d-ah-menu .d-main-menu ul,
+.d-ah-menu .d-main-options ul {
+    margin: 0;
+    padding: 0;
+}
+
+.d-ah-menu .d-main-menu ul li,
+.d-ah-menu .d-main-options ul li,
+.d-ah-head-options ul li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.d-ah-menu .d-main-menu ul li {
+    padding: 0 10px;
+}
+
+.d-ah-menu .d-main-options {
+    margin-left: 20px;
+}
+
+.d-head-top {
+    margin-bottom: 150px;
+    padding-top: 30px;
+}
+
+.d-main-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "mont-light";
+    line-height: 1em;
+}
+
+.d-main-options a {
+    color: #7ac943;
+    font-family: "mont-regular";
+    text-decoration: none;
+    border: 2px solid #7ac943;
+    line-height: 1em;
+    padding: 20px 25px;
+    display: block;
+    border-radius: 10px;
+}
+
+.d-main-options a:hover {
+    background: #7ac943;
+    color: #fff;
+}
