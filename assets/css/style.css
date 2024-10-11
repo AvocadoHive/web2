@@ -212,3 +212,8 @@ body {
     color: #ffff;
     text-decoration: none;
 }   
+
+.d-handle-understand img {
+    width: 100%;
+    display: block;
+}

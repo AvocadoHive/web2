@@ -10,5 +10,84 @@
 .d-demo-girl {
     background: url('/assets/images/peach_background.png') repeat-x center bottom;
     background-size: cover;
-    padding-top: 40px;
+    padding-top: 270px;
+    padding-bottom: 150px;
+}
+
+.d-demo-girl-inner {
+    max-width: 1370px;
+    margin: 0 auto;
+}
+
+.d-demo-girl-green {
+    background: linear-gradient(180deg, #0d3603 0%, #000 100%);
+    border-radius: 25px;
+}
+
+.d-demo-girl-green .d-demo-girl-left {
+    display: inline-block;
+    width: 55%;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    right: -50px;
+}
+
+.d-demo-girl-green .d-demo-girl-right {
+    display: inline-block;
+    width: 44%;
+    vertical-align: middle;
+}
+
+.d-demo-girl-green .d-demo-girl-right img {
+    width: 100%;
+    margin-top: -200px;
+    margin-bottom: -6px;
+    margin-left: 80px;
+}
+
+.d-demo-girl-green .d-demo-girl-left h4 {
+    font-family: "mont-bold";
+    font-size: 86px;
+    text-align: center;
+    padding: 0 8%;
+    line-height: 1.2em;
+    color: #fff;
+    text-shadow: 0 0 12px #0d2f0e;
+    margin-bottom: 30px;
+}
+
+.d-girl-options ul {
+    margin: 0;
+    padding: 0;
+}
+
+.d-girl-options ul li {
+    list-style: none;
+    display: inline-block;
+    width: 49.5%;
+}
+
+.d-girl-options ul li a {
+    font-size: 21px;
+    font-family: "mont-bold";
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 30px 10px;
+    display: block;
+    letter-spacing: 1px;
+    margin: 0 15px;
+}
+
+.d-girl-options ul li a:hover {
+    background: url('/assets/images/yellow_bg.jpg') repeat-x center center;
+    color: #333;
+    border: 2px solid #f4be04;
+}
+
+.d-handle-understand img {
+    width: 100%;
+    display: block;
 }

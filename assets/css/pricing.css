@@ -1,0 +1,86 @@
+.d-ah-head-options {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.d-ah-head-options ul li a {
+    font-size: 26px;
+    font-family: "mont-bold";
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 30px 110px;
+    display: block;
+    letter-spacing: 1px;
+}
+
+.d-ah-head-options ul li a:hover {
+    background: url('/assets/images/yellow_bg.jpg') repeat-x center center;
+    color: #333;
+    border: 2px solid #f4be04;
+}
+
+.d-expiry-creds-inner {
+    max-width: 1370px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.d-expiry-creds-inner .d-exp-creds-left {
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+}
+
+.d-expiry-creds-inner .d-exp-creds-right {
+    display: inline-block;
+    width: 39%;
+    vertical-align: middle;
+}
+
+.d-expiry-creds-inner .d-exp-creds-right img {
+    width: 100%;
+}
+
+.d-expiry-creds-inner .d-exp-creds-left h5 {
+    font-size: 51px;
+    font-family: "mont-bold";
+    line-height: 1.2em;
+    background: url('/assets/images/green_header_barrier.png') no-repeat bottom left;
+    background-size: 440px;
+    padding-bottom: 50px;
+    position: relative;
+    transition: all 1s;
+    color: #fff;
+    text-shadow: 0 0 12px #0d2f0e;
+}
+
+.n-exp-creds ul {
+    margin: 0;
+    padding: 0;
+}
+
+.n-exp-creds ul li {
+    list-style: none;
+    font-size: 31px;
+    padding: 15px 0;
+    color: #fff;
+}
+
+.n-exp-creds ul li i {
+    display: inline-block;
+    width: 5%;
+    vertical-align: top;
+    color: #7ac943;
+}
+
+.n-exp-creds ul li span {
+    width: 93%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.d-expiry-credits {
+    margin-bottom: 60px;
+}

@@ -7,7 +7,7 @@
 
         <link rel="stylesheet" href="/assets/css/fonts.css">
         <link rel="stylesheet" href="/assets/css/style.css">
-        <link rel="stylesheet" href="/assets/css/demo.css">
+        <link rel="stylesheet" href="/assets/css/pricing.css">
 
         <script src="https://kit.fontawesome.com/28b5b7d92f.js" crossorigin="anonymous"></script>
 
@@ -23,29 +23,37 @@
                             <?php include '../global/menu.php'; ?>
                         </div>
                         <div class="d-head-middle">
-                            <div class="d-ah-into">How it Works</div>
+                            <div class="d-ah-into">Pricing</div>
                             <div class="d-ah-sub-into">Pay-as-you-go, 24/7 team so you can handle your discovery & motion work needs with confidence.</div>
 
                         </div>
-                        <div class="d-demo-video">
-                            <img src="/assets/images/demo_vid.png" alt="">
+                        <div class="d-ah-head-options">
+                            <ul>
+                                <li><a href="#">Start for free</a></li>
+                                <li><a href="#">See Demo</a></li>
+                            </ul>
                         </div>
-                    </div>
-                </div>
-                <div class="d-demo-girl">
-                    <div class="d-demo-girl-inner">
-                        <div class="d-demo-girl-green">
-                            <div class="d-demo-girl-left">
-                                <h4>Ready to try?</h4>
-                                <div class="d-girl-options">
-                                    <ul>
-                                        <li><a href="#">Start for Free</a></li>
-                                        <li><a href="#">Book a Demo Call</a></li>
-                                    </ul>
+                        <div class="d-expiry-credits">
+                            <div class="d-expiry-creds-inner">
+                                <div class="d-exp-creds-left">
+                                    <h5>No-expiry Credits</h5>
+                                    <div class="n-exp-creds">
+                                        <ul>
+                                            <li><i class="fa-solid fa-circle-check"></i> <span>Prepaid</span></li>
+                                            <li><i class="fa-solid fa-circle-check"></i> <span>No minimum purchase required</span></li>
+                                            <li><i class="fa-solid fa-circle-check"></i> <span>Bill only for Productive Time</span></li>
+                                            <li><i class="fa-solid fa-circle-check"></i> <span>24/7 Operations</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="d-exp-creds-right">
+                                    <img src="/assets/images/mr_avocado.png" alt="">
                                 </div>
                             </div>
-                            <div class="d-demo-girl-right">
-                                <img src="/assets/images/ah_female_model.png" alt="">
+                        </div>
+                        <div class="d-main-prices">
+                            <div class="d-main-prices-inner">
+                                
                             </div>
                         </div>
                     </div>
