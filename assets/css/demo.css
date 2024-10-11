@@ -1,0 +1,14 @@
+.d-demo-video {
+    text-align: center;
+    border-radius: 5px;
+}
+
+.d-demo-video img {
+    border-radius: 5px;
+}
+
+.d-demo-girl {
+    background: url('/assets/images/peach_background.png') repeat-x center bottom;
+    background-size: cover;
+    padding-top: 40px;
+}

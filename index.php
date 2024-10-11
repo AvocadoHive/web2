@@ -34,9 +34,15 @@
                             <div class="d-phone-segment">
                                 <div class="d-phone-db">
                                     <ul>
-                                        <li><img src="/assets/images/home_notif_1.png" alt=""></li>
-                                        <li><img src="/assets/images/home_notif_2.png" alt=""></li>
-                                        <li><img src="/assets/images/home_notif_3.png" alt=""></li>
+                                        <li class="dphoneone">
+                                            <span><img src="/assets/images/home_notif_1.png" alt=""></span>
+                                        </li>
+                                        <li class="dphonetwo">
+                                            <span><img src="/assets/images/home_notif_2.png" alt=""></span>
+                                        </li>
+                                        <li class="dphonethree">
+                                            <span><img src="/assets/images/home_notif_3.png" alt=""></span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -59,9 +65,9 @@
                         <div class="d-handle-right">
                             <h5>Handle your cases with confidence...</h5>
                             <ul>
-                                <li><strong>24/7</strong> on-demand team.</li>
-                                <li>Specialized in <strong>Discovery & Motion Work</strong> support for Plaintiffs Personal Injury law firms</li>
-                                <li><strong>Collaborative Platform</strong> & Easy Task Delegation </li>
+                                <li class="d-one"><i class="fa-solid fa-circle-check"></i> <span><strong>24/7</strong> on-demand team.</span></li>
+                                <li class="d-two"><i class="fa-solid fa-circle-check"></i> <span>Specialized in <strong>Discovery & Motion Work</strong> support for Plaintiffs Personal Injury law firms</span></li>
+                                <li class="d-three"><i class="fa-solid fa-circle-check"></i> <span><strong>Collaborative Platform</strong> & Easy Task Delegation</span></li>
                             </ul>
                         </div>
                     </div>
@@ -87,11 +93,11 @@
                                 <div class="d-pricing-right-inner">
                                     <h5>No-Expiry Credits!</h5>
                                     <ul>
-                                        <li>Prepaid</li>
-                                        <li>No minimum purchase required</li>
-                                        <li>Bill only for Productive Time</li>
-                                        <li>24/7 Operations</li>
-                                        <li>Serviced by Philippine-Bar licensed attorneys trained with US litigation work</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> <span>Prepaid</span></li>
+                                        <li><i class="fa-solid fa-circle-check"></i> <span>No minimum purchase required</span></li>
+                                        <li><i class="fa-solid fa-circle-check"></i> <span>Bill only for Productive Time</span></li>
+                                        <li><i class="fa-solid fa-circle-check"></i> <span>24/7 Operations</span></li>
+                                        <li><i class="fa-solid fa-circle-check"></i> <span>Serviced by Philippine-Bar licensed attorneys trained with US litigation work</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -159,8 +165,9 @@
                 </div>
             </div>
         </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-        <script src="/assets/css/main.js"></script>
-        <script src="/assets/css/homepage.js"></script>
+        <script src="/assets/js/main.js"></script>
+        <script src="/assets/js/homepage.js"></script>
     </body>
 </html>

@@ -90,3 +90,125 @@ body {
     background: #7ac943;
     color: #fff;
 }
+
+.d-ah-head-options ul {
+    margin: 0;
+    padding: 0;
+}
+
+.d-ah-head-options ul li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 2%;
+}
+
+.d-ah-into {
+    font-family: "mont-bold";
+    font-size: 86px;
+    text-align: center;
+    padding: 0 8%;
+    line-height: 1.2em;
+    color: #fff;
+    text-shadow: 0 0 12px #0d2f0e;
+    margin-bottom: 30px;
+}
+
+.d-ah-sub-into {
+    text-align: center;
+    font-size: 38px;
+    padding: 0 8%;
+    font-family: "mont-light";
+    color: #fff;
+    line-height: 1.2em;
+    margin-bottom: 90px;
+}
+
+.d-handle-get-footer {
+    background: url('/assets/images/footer_background.png') no-repeat bottom center;
+}
+
+.d-handle-get-footer {
+    background: url(/assets/images/footer_background.png) no-repeat center center;
+    background-size: cover;
+}
+
+.d-handle-footer-inner {
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    color: #fff;
+}
+
+.d-handle-footer-inner .d-cols-item {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+
+.d-handle-footer-inner .d-cols-item.cols-two {
+    display: inline-block;
+    width: 66%;
+    vertical-align: top;
+}
+
+.d-handle-footer-inner .d-cols-item .d-foot-title {
+    font-family: "mont-light";
+    font-size: 36px;
+    line-height: 1em;
+    margin-bottom: 20px;
+}
+
+.d-handle-footer-inner .d-cols-item .d-foot-desc {
+    font-family: "mont-light";
+    padding-right: 15%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.2em;
+    margin-bottom: 30px;
+}
+
+.d-handle-footer-inner .d-cols-item .d-foot-social ul,
+.d-handle-footer-inner .d-cols-item .d-foot-contact ul {
+    margin: 0;
+    padding: 0;
+}
+
+.d-handle-footer-inner .d-cols-item .d-foot-social ul li,
+.d-handle-footer-inner .d-cols-item .d-foot-contact ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.d-handle-footer-inner .d-cols-item .d-foot-social ul li a {
+    font-size: 36px;
+    color: #fff;
+}
+
+.d-handle-footer-inner .d-cols-item .d-foot-contact ul li {
+    width: 48%;
+    vertical-align: top;
+    margin-bottom: 35px;
+}
+
+.d-handle-footer-inner .d-cols-item .d-foot-contact ul li i {
+    width: 40px;
+    font-size: 29px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+.d-handle-footer-inner .d-cols-item .d-foot-contact ul li span {
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: "mont-light";
+    line-height: 1.2em;
+}
+
+.d-handle-footer-inner .d-cols-item .d-foot-contact ul li span a {
+    color: #ffff;
+    text-decoration: none;
+}   
