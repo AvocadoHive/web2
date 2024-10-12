@@ -82,5 +82,137 @@
 }
 
 .d-expiry-credits {
-    margin-bottom: 60px;
+    margin-bottom: 120px;
+}
+
+.d-main-prices-inner .d-pricing-item {
+    display: inline-block;
+    width: 39%;
+    margin: 0 5%;
+    vertical-align: top;
+}
+
+.d-main-prices-inner .d-pricing-item:hover {
+    zoom: 1.1;
+    margin: 0 5%;
+}
+
+.d-main-prices-inner .d-pricing-left .d-price-number {
+    background: linear-gradient(180deg, #bfa202 0%, #dbc800 100%);
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 35px 0;
+    font-size: 91px;
+    font-family: "mont-bold";
+    color: #0c3004;
+    border-radius: 20px 20px 0 0;
+}
+
+.d-main-prices-inner .d-pricing-right .d-price-number {
+    background: linear-gradient(180deg, #759d05 0%, #7ec009 100%);
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 35px 0;
+    font-size: 91px;
+    font-family: "mont-bold";
+    color: #0c3004;
+    border-radius: 20px 20px 0 0;
+}
+
+.d-price-details {
+    background: linear-gradient(180deg, #000 0%, #0d3603 100%);
+    color: #fff;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -15px;
+    border-radius: 20px;
+    min-height: 890px;
+}
+
+.d-price-details .d-price-title {
+    font-size: 46px;
+    font-family: "mont-bold";
+    line-height: 1.2em;
+    margin-bottom: 46px;
+}
+
+.d-price-details .d-price-scope {
+    font-family: "mont-light";
+    font-size: 33px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.d-price-details .d-price-hr {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+}
+
+.d-price-details .d-price-services {
+    text-align: left;
+}
+
+.d-price-details .d-price-services h4 {
+    font-size: 36px;
+    color: #fff;
+    font-family: "mont-bold";
+    margin-bottom: 30px;
+}
+
+.d-price-details .d-price-services ul {
+    margin: 0;
+    padding: 0;
+}
+
+.d-price-details .d-price-services ul li {
+    list-style: none;
+    margin: 30px 0;
+    font-size: 31px;
+    font-family: "mont-light";
+}
+
+.d-price-details .d-price-services ul li i {
+    display: inline-block;
+    width: 5%;
+    vertical-align: top;
+}
+
+.d-price-details .d-price-services ul li span {
+    width: 90%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3%;
+}
+
+.d-pricing-learn-more {
+    text-align: center;
+    margin: 120px;
+}
+
+.d-pricing-learn-more a {
+    color: #fff;
+    background: antiquewhite;
+    background: linear-gradient(180deg, #000 0%, #0d3603 100%);
+    text-decoration: none;
+    padding: 35px 75px;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: "mont-semi-bold";
+    font-size: 24px;
+    transition: all .5s;
+    opacity: 1;
+}
+
+.d-credit-discount {
+    background: url('/assets/images/peach_background.png') repeat-x center bottom;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+.d-credit-discount-inner h4 {
+    text-align: center;
+    font-size: 71px;
+    line-height: 1.2em;
+    padding: 60px 0;
+    font-family: "mont-light";
 }

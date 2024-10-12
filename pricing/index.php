@@ -53,9 +53,59 @@
                         </div>
                         <div class="d-main-prices">
                             <div class="d-main-prices-inner">
-                                
+                                <div class="d-pricing-item d-pricing-left">
+                                    <div class="d-price-container">
+                                        <div class="d-price-number">
+                                            <span>$20/hr</span>
+                                        </div>
+                                        <div class="d-price-details">
+                                            <div class="d-price-title">Discovery &<br />Motion Work</div>
+                                            <div class="d-price-scope">Serviced by <strong>Philippine-<br />Bar licensed attorneys</strong> trained with US litigation work.</div>
+                                            <div class="d-price-hr">&nbsp;</div>
+                                            <div class="d-price-services">
+                                                <h4>Services:</h4>
+                                                <ul>
+                                                    <li><i class="fa-solid fa-check"></i> <span>Complaints and Petitions</span></li>
+                                                    <li><i class="fa-solid fa-check"></i> <span>Discovery Work</span></li>
+                                                    <li><i class="fa-solid fa-check"></i> <span>Law and Motion Work</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-pricing-item d-pricing-right">
+                                    <div class="d-price-container">
+                                        <div class="d-price-number">
+                                            <span>$10/hr</span>
+                                        </div>
+                                        <div class="d-price-details">
+                                            <div class="d-price-title">Pre-litigation<br />Work</div>
+                                            <div class="d-price-scope"> Serviced by <strong>Law<br />Students</strong> trained and supervised by<br />Attorneys</div>
+                                            <div class="d-price-hr">&nbsp;</div>
+                                            <div class="d-price-services">
+                                                <h4>Services:</h4>
+                                                <ul>
+                                                    <li><i class="fa-solid fa-check"></i> <span>Admin and E-filling</span></li>
+                                                    <li><i class="fa-solid fa-check"></i> <span>Liaising & Data Entry</span></li>
+                                                    <li><i class="fa-solid fa-check"></i> <span>Calendaring & CMS Management</span></li>
+                                                    <li><i class="fa-solid fa-check"></i> <span>Demand Writing</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-pricing-learn-more">
+                                    <a href="#">Learn more about our services</a>
+                                </div>
                             </div>
                         </div>
+                        
+                    </div>
+                </div>
+
+                <div class="d-credit-discount">
+                    <div class="d-credit-discount-inner">
+                        <h4>Discount Credits for <strong>Discovery &<br />Motion Work</strong></h4>
                     </div>
                 </div>
 
