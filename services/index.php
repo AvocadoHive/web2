@@ -1,3 +1,48 @@
+<?php
+    $discovery_motions = [
+        ['title' => 'Drafting of Complaints and Petitions', 'link' => '1-Drafting of Complaints and Petitions.png'],
+        ['title' => 'Document Review and Management', 'link' => '2-Document Review and Management.png'],
+        ['title' => 'Drafting Meet & Confer Letter', 'link' => '3-Drafting Meet & Confer Letter.png'],
+        ['title' => 'Interrogatories', 'link' => '4-Interrogatories.png'],
+        ['title' => 'Requests for Production', 'link' => '5-Requests for Production.png'],
+        ['title' => 'Requests for Admissions', 'link' => '6-Requests for Admissions.png'],
+        ['title' => 'Depositions', 'link' => '7-Depositions.png'],
+        ['title' => 'Electronic Discovery', 'link' => '8-Electronic Discovery.png'],
+        ['title' => 'Third-Party Discovery', 'link' => '9-Third-Party Discovery.png'],
+        ['title' => 'Identification of Expert Witnesses', 'link' => '10-Identification of Expert Witnesses.png'],
+        ['title' => 'Expert Witness Retention', 'link' => '11-Expert Witness Retention.png'],
+        ['title' => 'Expert Witness Disclosure', 'link' => '12-Expert Witness Disclosure.png'],
+        ['title' => 'Expert Report Preparation', 'link' => '13-Expert Report Preparation.png'],
+        ['title' => 'Expert Witness Depositions', 'link' => '14-Expert Witness Depositions.png'],
+        ['title' => 'Expert Witness Communication Management', 'link' => '15-Expert Witness Communication Management.png'],
+        ['title' => 'Expert Discovery Motions', 'link' => '16-Expert Discovery Motions.png'],
+        ['title' => 'Review of Opposing Experts', 'link' => '17-Review of Opposing Experts.png'],
+        ['title' => 'Expert Witness Preparation for Trial', 'link' => '18-Expert Witness Preparation for Trial.png'],
+        ['title' => 'Research and Analysis', 'link' => '19-Research and Analysis.png'],
+        ['title' => 'Drafting the Motion', 'link' => '20-Drafting the Motion.png'],
+        ['title' => 'Review and Revision', 'link' => '21-Review and Revision.png'],
+        ['title' => 'Filing and Service', 'link' => '22-Filing and Service.png'],
+        ['title' => 'Review of the Motion', 'link' => '23-Review of the Motion.png'],
+        ['title' => 'Drafting the Opposition', 'link' => '24-Drafting the Opposition.png'],
+        ['title' => 'Coordinating and Filing', 'link' => '25-Coordinating and Filing.png'],
+        ['title' => 'Legal Issue Identification', 'link' => '26-Legal Issue Identification.png'],
+        ['title' => 'Comprehensive Legal Research', 'link' => '27-Comprehensive Legal Research.png'],
+        ['title' => 'Preparation of Legal Memoranda', 'link' => '28-Preparation of Legal Memoranda.png'],
+        ['title' => 'Drafting the Brief', 'link' => '29-Drafting the Brief.png'],
+        ['title' => 'Supporting Legal Arguments', 'link' => '30-Supporting Legal Arguments.png'],
+        ['title' => 'Editing and Finalizing', 'link' => '31-Editing and Finalizing.png'],
+        ['title' => 'Document Preparation', 'link' => '32-Document Preparation.png'],
+        ['title' => 'Organizing Evidence and Exhibits', 'link' => '33-Organizing Evidence and Exhibits.png'],
+    ];
+
+    $prelist = [
+        ['title' => 'General Administrative Tasks', 'link' => '1-General Administrative Tasks.png'],
+        ['title' => 'Calendaring & CMS Management', 'link' => '2-Calendaring  & CMS Management.png'],
+        ['title' => 'Liasoning and Data Entry', 'link' => '3-Liasoning and Data Entry.png'],
+        ['title' => 'Demand Writing', 'link' => '4-Demand Writing.png'],
+        ['title' => 'Heavy Phone Time and Intake (Coming Soon)', 'link' => 'Heavy Phone Time and Intake.png'],
+    ];
+?>
 <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -58,11 +103,36 @@
                     <div class="d-disc-motion-work">
                         <h4>Discovery & Motion Work</h4>
                         <div class="d-sub-header">(Litigation Support Activities)</div>
+                        <div class="d-discovery-motion">
+                            <?php foreach ($discovery_motions as $dmkey => $dmvalue) { ?>
+                                <div class="d-main-slide-base">
+                                    <div class="d-discovery-item">
+                                        <div class="d-core-image"><img src="/assets/carrosels/discovery_motion/<?php echo $dmvalue['link'] ?>" alt=""></div>
+                                        <div class="d-core-title"><?php echo $dmvalue['title'] ?></div>
+                                        <div class="d-core-desc">testing</div>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        </div>
                     </div>
                 </div>
 
-                <div class="d-handle-understand">
-                    <img src="/assets/images/handle_understand.jpg" alt="">
+                <div class="d-discover-motion-work">
+                    <div class="d-disc-motion-work">
+                        <h4>Pre-lit Work</h4>
+                        <div class="d-sub-header">(Pre-litigation and Administrative Support)</div>
+                        <div class="d-discovery-motion">
+                            <?php foreach ($prelist as $plkey => $plvalue) { ?>
+                                <div class="d-main-slide-base">
+                                    <div class="d-discovery-item">
+                                        <div class="d-core-image"><img src="/assets/carrosels/prelit/<?php echo $plvalue['link'] ?>" alt=""></div>
+                                        <div class="d-core-title"><?php echo $plvalue['title'] ?></div>
+                                        <div class="d-core-desc">testing</div>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        </div>
+                    </div>
                 </div>
                 
                 <div class="d-handle-get-footer">
@@ -97,6 +167,6 @@
         <script src="/assets/slick/slick.js"></script>
 
         <script src="/assets/js/main.js"></script>
-        <script src="/assets/js/homepage.js"></script>
+        <script src="/assets/js/services.js"></script>
     </body>
 </html>

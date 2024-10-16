@@ -59,3 +59,38 @@
     margin-bottom: 50px;
     font-family: "mont-light";
 }
+
+.d-disc-motion-work {
+    max-width: 1370px;
+    margin: 0 auto;
+}
+
+.d-discovery-item {
+    text-align: center;
+    background: rgb(41,43,41);
+    background: linear-gradient(118deg, #0d3603 0%, #000 100%);
+    padding: 25px;
+    border-radius: 35px;
+}
+
+.d-core-image img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.d-discovery-item .d-core-title {
+    color: #e0cfad;
+    font-size: 21px;
+    font-family: "mont-light";
+    padding: 0 10px;
+    min-height: 60px;
+}
+
+.d-main-slide-base {
+    width: 400px !important;
+}
+
+.d-discover-motion-work {
+    margin-bottom: 150px;
+}
+
