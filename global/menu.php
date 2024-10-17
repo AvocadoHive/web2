@@ -4,12 +4,12 @@
 <div class="d-ah-menu">
     <div class="d-main-menu">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/about">About Us</a></li>
             <li><a href="#">Blogs</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">FAQs</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="/faq">FAQs</a></li>
         </ul>
     </div>
     <div class="d-main-options">
