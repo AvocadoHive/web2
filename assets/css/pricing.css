@@ -216,3 +216,8 @@
     padding: 60px 0;
     font-family: "mont-light";
 }
+
+.d-discount-image {
+    text-align: center;
+    padding: 20px 0 150px;
+}

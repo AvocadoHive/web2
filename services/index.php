@@ -92,6 +92,27 @@
                                         </ul>
                                     </div>
                                 </div>
+                                <div class="d-exp-creds-right">
+                                    <img src="/assets/images/services_demand_bg2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-discover-motion-work">
+                            <div class="d-disc-motion-work">
+                                <h4>Discovery & Motion Work</h4>
+                                <div class="d-sub-header">(Litigation Support Activities)</div>
+                                <div class="d-discovery-motion">
+                                    <?php foreach ($discovery_motions as $dmkey => $dmvalue) { ?>
+                                        <div class="d-main-slide-base">
+                                            <div class="d-discovery-item">
+                                                <div class="d-core-image"><img src="/assets/carrosels/discovery_motion/<?php echo $dmvalue['link'] ?>" alt=""></div>
+                                                <div class="d-core-title"><?php echo $dmvalue['title'] ?></div>
+                                                <div class="d-core-desc">testing</div>
+                                            </div>
+                                        </div>
+                                    <?php } ?>
+                                </div>
                             </div>
                         </div>
                         
@@ -99,23 +120,7 @@
                     </div>
                 </div>
 
-                <div class="d-discover-motion-work">
-                    <div class="d-disc-motion-work">
-                        <h4>Discovery & Motion Work</h4>
-                        <div class="d-sub-header">(Litigation Support Activities)</div>
-                        <div class="d-discovery-motion">
-                            <?php foreach ($discovery_motions as $dmkey => $dmvalue) { ?>
-                                <div class="d-main-slide-base">
-                                    <div class="d-discovery-item">
-                                        <div class="d-core-image"><img src="/assets/carrosels/discovery_motion/<?php echo $dmvalue['link'] ?>" alt=""></div>
-                                        <div class="d-core-title"><?php echo $dmvalue['title'] ?></div>
-                                        <div class="d-core-desc">testing</div>
-                                    </div>
-                                </div>
-                            <?php } ?>
-                        </div>
-                    </div>
-                </div>
+                
 
                 <div class="d-discover-motion-work">
                     <div class="d-disc-motion-work">

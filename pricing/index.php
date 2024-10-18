@@ -106,11 +106,10 @@
                 <div class="d-credit-discount">
                     <div class="d-credit-discount-inner">
                         <h4>Discount Credits for <strong>Discovery &<br />Motion Work</strong></h4>
+                        <div class="d-discount-image">
+                            <img src="/assets/images/pricing_promo.png" alt="">
+                        </div>
                     </div>
-                </div>
-
-                <div class="d-handle-understand">
-                    <img src="/assets/images/handle_understand.jpg" alt="">
                 </div>
                 
                 <div class="d-handle-get-footer">

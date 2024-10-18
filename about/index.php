@@ -30,17 +30,31 @@
                             </div>
 
                             <div class="d-core-values">Core Values</div>
-                            <div class="d-code-value-items"></div>
+                            <div class="d-code-value-items">
+                                <div class="d-core-item d-one-base">
+                                    <div class="d-core-item-icon"><i class="fa-solid fa-handshake"></i></div>
+                                    <div class="d-core-item-text">Customer<br />Collaboration</div>
+                                </div>
+                                <div class="d-core-item d-two-base">
+                                    <div class="d-core-item-icon"><i class="fa-solid fa-people-group"></i></div>
+                                    <div class="d-core-item-text">Collective<br />Excellence</div>
+                                </div>
+                                <div class="d-core-item d-three-base">
+                                    <div class="d-core-item-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                                    <div class="d-core-item-text">Forward<br />Thinking</div>
+                                </div>
+                            </div>
+                            <div class="d-mission-base">
+                                <div class="d-mission-base-inner">
+                                <div class="d-mission-title"><i class="fa-solid fa-flag"></i> <span>Mission</span></div> 
+                                <div class="d-mission-desc">"Our mission is to retain & build a community of <strong>1,000+ of the happiest and most prodcutive Litigation VAs</strong> for the Plaintiffs legal space by 2028."</div> 
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="d-mission-base">
-                    <div class="d-mission-base-inner">
-                       <div class="d-mission-title"><i class="fa-solid fa-flag"></i> <span>Mission</span></div> 
-                       <div class="d-mission-desc">"Our mission is to retain & build a community of <strong>1,000+ of the happiest and most prodcutive Litigation VAs</strong> for the Plaintiffs legal space by 2028."</div> 
-                    </div>
-                </div>
+                
 
                 <div class="d-operational-cofounder">
                     <div class="d-operational-inner">
