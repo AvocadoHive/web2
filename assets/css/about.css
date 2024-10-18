@@ -28,6 +28,7 @@
     background: url('/assets/images/about_mission_bg.png') no-repeat center center;
     padding: 150px 700px 150px 120px;
     background-size: cover;
+    overflow: hidden;
 }
 
 .d-mission-base-inner .d-mission-title {
@@ -36,6 +37,10 @@
     font-size: 66px;
     font-family: "mont-bold";
     margin-bottom: 60px;
+    position: relative;
+    left: -110%;
+    transition: all 1s;
+    
 }
 
 .d-mission-base-inner .d-mission-desc {
@@ -43,6 +48,14 @@
     font-family: "mont-light";
     font-size: 46px;
     text-align: center;
+    position: relative;
+    left: -125%;
+    transition: all 1s;
+}
+
+.d-mission-base-inner .d-mission-title.show,
+.d-mission-base-inner .d-mission-desc.show {
+    left: 0;
 }
 
 .d-operational-cofounder {
@@ -54,6 +67,7 @@
 .d-operational-inner {
     max-width: 1370px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .d-cofounder-images .d-cofounder-item {
@@ -61,6 +75,8 @@
     width: 22%;
     text-align: center;
     margin: 0 1%;
+    position: relative;
+    transition: all 1s;
 }
 
 .d-cofounder-images .d-cofounder-item .d-founder-image img {
@@ -79,11 +95,20 @@
     font-size: 86px;
     font-family: "mont-bold";
     padding: 100px 0 70px;
+    position: relative;
+    top: -300px;
+    transition: all 1s;
+}
+
+.d-operational-inner h4.show {
+    top: 0;
 }
 
 .d-cofounder-images {
     padding-bottom: 130px;
     text-align: center;
+    overflow: hidden;
+    padding: 20px 0;
 }
 
 .d-cofounder-images .d-cofounder-item .d-founder-desc {
@@ -128,10 +153,11 @@
     display: inline-block;
     width: 39%;
     vertical-align: middle;
+    text-align: center;
 }
 
 .d-avocado-ceo-inner .d-top-right img {
-    width: 100%;
+    width: 85%;
 }
 
 
@@ -162,6 +188,7 @@
     background: #fff;
     border-radius: 5px;
     padding: 60px 60px;
+    margin-top: 100px;
 }
 
 .d-top-main h6 {
@@ -302,8 +329,9 @@
 
 .d-code-value-items {
     text-align: center;
-    padding: 0 8%;
+    padding: 20px 8%;
     margin-bottom: 220px;
+    overflow: hidden;
 }
 
 .d-code-value-items .d-core-item .d-core-item-icon {
@@ -316,4 +344,66 @@
     text-align: center;
     font-size: 26px;
     font-family: "mont-semi-bold";
+}
+
+.d-code-value-items .d-core-item.d-one-base {
+    left: -50%;
+    position: relative;
+    transition: all 1s;
+}
+
+.d-code-value-items .d-core-item.d-two-base {
+    position: relative;
+    transition: all 1s;
+    bottom: -450px;
+}
+
+.d-code-value-items .d-core-item.d-three-base {
+    right: -50%;
+    position: relative;
+    transition: all 1s;
+}
+
+.d-code-value-items .d-core-item.d-one-base.show {
+    left: 0;
+}
+
+.d-code-value-items .d-core-item.d-two-base.show {
+    bottom: 0;
+}
+
+.d-code-value-items .d-core-item.d-three-base.show {
+    right: 0;
+}
+
+.d-cofounder-item.d-ceo-base {
+    left: -30%;
+}
+
+.d-cofounder-item.d-coo-base {
+    bottom: -410px;
+}
+
+.d-cofounder-item.d-cto-base {
+    top: -410px;
+}
+
+.d-cofounder-item.d-cfo-base {
+    right: -30%;
+}
+
+.d-cofounder-item.d-ceo-base.show {
+    left: 0;
+}
+
+.d-cofounder-item.d-coo-base.show {
+    bottom: 0;
+}
+
+.d-cofounder-item.d-cto-base.show {
+    top: 0;
+}
+
+.d-cofounder-item.d-cfo-base.show {
+    right: 0;
 }

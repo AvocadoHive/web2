@@ -98,7 +98,7 @@
                             </div>
                         </div>
 
-                        <div class="d-discover-motion-work">
+                        <div class="d-discover-motion-work d-discover-cars">
                             <div class="d-disc-motion-work">
                                 <h4>Discovery & Motion Work</h4>
                                 <div class="d-sub-header">(Litigation Support Activities)</div>
@@ -122,7 +122,7 @@
 
                 
 
-                <div class="d-discover-motion-work">
+                <div class="d-discover-motion-work  d-prelit-cars">
                     <div class="d-disc-motion-work">
                         <h4>Pre-lit Work</h4>
                         <div class="d-sub-header">(Pre-litigation and Administrative Support)</div>

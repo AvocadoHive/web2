@@ -133,13 +133,35 @@
     position: absolute;
     font-family: "mont-light";
     top: 20%;
+    left: -55%;
+    transition: all 1s;
+}
+
+.d-expiry-credits .d-expiry-creds-inner .d-exp-creds-left.show {
     left: 15%;
 }
 
 .d-expiry-credits .d-expiry-creds-inner .d-exp-creds-right {
     text-align: right;
+    opacity: 0;
+    transition: all 4s;
+}
+
+.d-expiry-credits .d-expiry-creds-inner .d-exp-creds-right.show {
+    opacity: 1;
 }
 
 .d-expiry-credits .d-expiry-creds-inner .d-exp-creds-right img {
     width: 55%;
+}
+
+.d-discover-cars,
+.d-prelit-cars{
+    opacity: 0;
+    transition: all 3s;
+}
+
+.d-discover-cars.show,
+.d-prelit-cars.show {
+    opacity: 1;
 }

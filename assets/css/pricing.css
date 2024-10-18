@@ -31,12 +31,25 @@
     display: inline-block;
     width: 60%;
     vertical-align: middle;
+    position: relative;
+    left: -700px;
+    transition: all 1s;
+}
+
+.d-expiry-creds-inner .d-exp-creds-left.show {
+    left: 0;
 }
 
 .d-expiry-creds-inner .d-exp-creds-right {
     display: inline-block;
     width: 39%;
     vertical-align: middle;
+    opacity: 0;
+    transition: all 4s;
+}
+
+.d-expiry-creds-inner .d-exp-creds-right.show {
+    opacity: 1;
 }
 
 .d-expiry-creds-inner .d-exp-creds-right img {
@@ -90,11 +103,14 @@
     width: 39%;
     margin: 0 5%;
     vertical-align: top;
+    transition: all .5s;
 }
 
 .d-main-prices-inner .d-pricing-item:hover {
-    zoom: 1.1;
-    margin: 0 5%;
+    /* zoom: 1.1; */
+    /* margin: 0 5%; */
+    box-shadow: 0 0 12px #fff;
+    border-radius: 20px;
 }
 
 .d-main-prices-inner .d-pricing-left .d-price-number {
@@ -199,7 +215,11 @@
     border-radius: 10px;
     font-family: "mont-semi-bold";
     font-size: 24px;
-    transition: all .5s;
+    transition: all 1s;
+    opacity: 0;
+}
+
+.d-pricing-learn-more a.show {
     opacity: 1;
 }
 
@@ -207,6 +227,7 @@
     background: url('/assets/images/peach_background.png') repeat-x center bottom;
     background-size: cover;
     padding-top: 40px;
+    overflow: hidden;
 }
 
 .d-credit-discount-inner h4 {
@@ -215,9 +236,50 @@
     line-height: 1.2em;
     padding: 60px 0;
     font-family: "mont-light";
+    position: relative;
+    top: -300px;
+    transition: all 1.5s;
+}
+
+.d-credit-discount-inner h4.show {
+    top: 0px;
 }
 
 .d-discount-image {
     text-align: center;
     padding: 20px 0 150px;
+}
+
+.d-discount-image img {
+    opacity: 0;
+    transition: all 4s;
+}
+
+.d-discount-image img.show {
+    opacity: 1;
+}
+
+.d-main-prices {
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.d-main-prices-inner .d-pricing-item.d-pricing-left .d-price-container {
+    position: relative;
+    left: -650px;
+    transition: all 1s;
+}
+
+.d-main-prices-inner .d-pricing-item.d-pricing-right .d-price-container {
+    position: relative;
+    right: -650px;
+    transition: all 1s;
+}
+
+.d-main-prices-inner .d-pricing-item.d-pricing-left .d-price-container.show {
+    left: 0;
+}
+
+.d-main-prices-inner .d-pricing-item.d-pricing-right .d-price-container.show {
+    right: 0;
 }
